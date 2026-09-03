@@ -29,7 +29,7 @@ const Navbar = ({ bgc }: { bgc: string }) => {
       }`}
       style={{ background: bgc }}
     >
-      <div className="max-w-300 px-5 mx-auto flex justify-between items-center md:py-6 pt-4 pb-1">
+      <div className="max-w-300 px-5 mx-auto flex justify-between items-center md:py-2 pt-4 pb-1">
         <Image src="/logo.png" width={180} height={80} alt="logo" />
 
         <div className="md:flex md:flex-row flex-col hidden gap-10 ">
@@ -86,9 +86,9 @@ const Navbar = ({ bgc }: { bgc: string }) => {
       </div>
 
       <ul
-        className={`md:hidden transition-all duration-300 ease-in-out flex flex-col justify-center items gap-4 px-4 pb-5 overflow-hidden ${
+        className={`md:hidden transition-all duration-300 ease-in-out flex flex-col justify-center items gap-4 px-4 pb-2 overflow-hidden ${
           isResponsive
-            ? "max-h-125 opacity-100 translate-y-0"
+            ? "max-h-120 opacity-100 translate-y-0"
             : "max-h-0 opacity-0 -translate-y-5"
         }`}
       >
@@ -128,8 +128,8 @@ const Navbar = ({ bgc }: { bgc: string }) => {
           </Link>
         </li>
         <hr className="bg-[#B3B3B3] w-full h-px border-0" />
-        <li>
-          <Link className="text-[white] text-[13px]" href={"/contact"} onClick={()=>setisResponsive(false)}>
+        <li className="pb-2">
+          <Link className="text-[white] text-[13px] " href={"/contact"} onClick={()=>setisResponsive(false)}>
             Contact Us
           </Link>
         </li>
