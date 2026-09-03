@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
@@ -20,8 +20,29 @@ const Gallery = () => {
     "/pf-12-1.jpg",
   ];
 
-  const visible = 4;
+  const [visible, setvisible] = useState<number>(1)
   const [index, setIndex] = useState(0);
+
+   useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        setvisible(4); // desktop
+      } else {
+        setvisible(1); // mobile
+      }
+    };
+
+    handleResize(); // run on mount
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+   useEffect(() => {
+    if (index > images.length - visible) {
+      setIndex(0);
+    }
+  }, [visible]);
 
   const maxIndex = images.length - visible;
 
@@ -62,7 +83,7 @@ const Gallery = () => {
           }}
         >
           {images.map((img, i) => (
-            <div key={i} className="w-1/4 shrink-0">
+            <div key={i} className="w-full md:w-1/4 shrink-0">
               <Image
                 src={img}
                 width={300}

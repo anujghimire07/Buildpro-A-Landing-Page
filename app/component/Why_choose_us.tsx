@@ -6,7 +6,7 @@ const Why_choose_us = () => {
   return (
     <div className="bg-[#FFFFFF] font-montserrat ">
       {/* white bgc */}
-      <div className="max-w-300 mx-auto  py-15 px-5 flex justify-center  gap-2  ">
+      <div className="max-w-300 mx-auto  py-15 px-5 flex md:flex-row flex-col justify-center  gap-2  ">
         <div className="flex-1 ">
           <h1 className="text-[28px] font-medium pb-3">Why Choose Us</h1>
           <hr className="bg-[#F2C802] w-14 h-0.5 border-0" />
@@ -14,7 +14,7 @@ const Why_choose_us = () => {
         
 
         <div className="flex-3 p-2">
-          <div className="grid grid-cols-3 gap-8">
+          <div className="md:grid md:grid-cols-3 gap-8">
             {/* card 1 */}
             <div className="flex flex-1">
               <div className="px-4 pb-3 pt-1">
@@ -104,7 +104,7 @@ const Why_choose_us = () => {
 
       {/* yellow bgc */}
       <div className="bg-[#FFD200] text-[#222222]  ">
-        <div className="p-5 max-w-300 mx-auto flex justify-between items-center">
+        <div className="p-5 max-w-300 mx-auto flex md:flex-row flex-col gap-6 justify-between items-center">
           <h1 className="text-[20px] font-medium">
             Looking for best partner for your next construction works?
           </h1>

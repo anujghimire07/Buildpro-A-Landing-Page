@@ -13,15 +13,15 @@ const Hero = () => {
       </div>
 
       {/* CENTER CONTENT */}
-      <div className="h-full flex justify-center items-center font-montserrat text-center">
+      <div className="h-full flex justify-center  items-center font-montserrat text-center">
 
         <div className="flex flex-col items-center">
 
           <div>
-            <span className="text-[120px] text-white font-extrabold tracking-tighter">
+            <span className="md:text-[120px] text-[45px] text-white font-extrabold tracking-tighter">
               welcome
             </span>
-            <span className="text-[120px] font-extrabold text-[#FFD200]">
+            <span className="md:text-[120px] text-[45px] font-extrabold text-[#FFD200]">
               .
             </span>
           </div>

@@ -9,7 +9,7 @@ import { MdLocationOn, MdAccessTime, MdEmail } from "react-icons/md";
 const Top = () => {
 
   return (
-    <div className="bg-black/25 font-montserrat ">
+    <div className="bg-black/25 font-montserrat md:block hidden ">
       <div className="px-5 max-w-300 m-auto flex justify-between items-center py-2">
         {/* left div */}
         <div className="flex gap-8">

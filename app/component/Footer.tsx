@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="font-montserrat text-[#B3B3B3] relative z-10">
       {/* upper */}
       <div className=" bg-[#222222] pt-12">
-        <div className="max-w-300 mx-auto flex gap-2 ">
+        <div className="max-w-300 mx-auto flex md:flex-row flex-col gap-2 ">
           <div className=" flex-1 p-5">
             <Image
               src={"/logo.png"}
@@ -105,7 +105,7 @@ const Footer = () => {
 
       {/* lower */}
       <div className="bg-[#242424] h-auto">
-        <div className="max-w-300 mx-auto flex justify-between items-center p-5  ">
+        <div className="max-w-300 mx-auto flex md:flex-row flex-col gap-4 justify-between items-center p-5  ">
           <div className="text-[#B3B3B3] text-[12px]">
             &copy; Copyright 2023 - BuildPro by OceanThemes
           </div>

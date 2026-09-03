@@ -12,7 +12,7 @@ const HeroNavbar = () => {
   //   "Contact Us",
   // ];
   return (
-    <div className=" transition-all duration-300 font-montserrat relative z-20">
+    <div className=" transition-all md:block hidden duration-300 font-montserrat relative z-20">
       <div className="max-w-300 px-5 mx-auto flex justify-between items-center">
         <Image src="/logo.png" width={180} height={80} alt="logo" />
 

@@ -52,13 +52,13 @@ const page = () => {
         <div className="h-auto mx-auto max-w-300 px-5">
           {/*max width div */}
 
-          <div className="flex px-2 py-18 gap-8">
+          <div className="flex md:flex-row flex-col px-2 py-18 gap-8">
             {/*parent div */}
 
             <div className="flex-3 flex flex-col gap-8 ">
               {/*left div */}
 
-              <div className=" flex flex-1 gap-8">
+              <div className=" flex md:flex-row flex-col flex-1 gap-8">
                 {/*top div */}
 
                 <div className="flex-1 flex gap-8 bg-[#EEEEEE] p-6">
@@ -110,7 +110,7 @@ const page = () => {
                 ></Image>
               </div>
 
-              <div className="flex flex-row flex-2 gap-8">
+              <div className="flex md:flex-row flex-col flex-2 gap-8">
                 {/*bottom div */}
                 <div className="flex flex-col gap-4 flex-1 overflow-hidden">
                   <div className="overflow-hidden">
@@ -119,7 +119,7 @@ const page = () => {
                       height={150}
                       width={400}
                       alt="img 1"
-                      className="transition-transform duration-500 hover:scale-105 overflow-hidden "
+                      className="transition-transform duration-300 hover:scale-105 overflow-hidden "
                     ></Image>
                   </div>
                   <div>
@@ -139,6 +139,15 @@ const page = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 flex-1">
+                  <div className="overflow-hidden">
+                    <Image
+                      src={"/pic_7-1.jpg"}
+                      height={150}
+                      width={400}
+                      alt="img 1"
+                      className="transition-transform duration-500 hover:scale-105 overflow-hidden "
+                    ></Image>
+                  </div>
                   <div>
                     <h1 className="text-[17px] font-medium text-[#222222]">
                       Constructing
@@ -153,15 +162,7 @@ const page = () => {
                       inventore veritatis et quasi architecto beatae.
                     </p>
                   </div>
-                  <div className="overflow-hidden">
-                    <Image
-                      src={"/pic_7-1.jpg"}
-                      height={150}
-                      width={400}
-                      alt="img 1"
-                      className="transition-transform duration-500 hover:scale-105 overflow-hidden "
-                    ></Image>
-                  </div>
+                  
                 </div>
               </div>
             </div>

@@ -27,7 +27,7 @@ const TextAnimation = () => {
   return (
     <div className="h-12 flex items-center justify-center overflow-hidden">
       <p
-        className={`text-[28px] font-normal text-[#F2C802] transition-all duration-300 ${
+        className={`md:text-[28px] text-[20px] font-normal text-[#F2C802] transition-all duration-300 ${
           fade ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-3"
         }`}
       >

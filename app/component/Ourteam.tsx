@@ -10,7 +10,7 @@ const Ourteam = () => {
           <hr className="bg-[#F2C802] w-12 h-0.5 border-0" />
         </div>
 
-        <div className="w-full flex justify-center items-center">
+        <div className="w-full flex md:flex-row flex-col justify-center items-center md:gap-0 gap-12">
           {/* card 1 */}
           <div className="flex-1">
             <div className="overflow-hidden w-[270px] h-[270px]">

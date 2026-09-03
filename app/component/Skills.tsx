@@ -2,9 +2,9 @@ import Skill_bar from "./Skill_bar";
 
 const Skills = () => {
   return (
-    <div className="font-montserrat flex justify-end items-center bg-[url('/wide2-1.jpg')] bg-cover bg-center text-white">
-      <div className="h-auto w-1/2 bg-black/50 ">
-        <div className="w-full p-16 flex flex-col gap-10">
+    <div className="font-montserrat flex md:justify-end items-center bg-[url('/wide2-1.jpg')] bg-cover bg-center text-white">
+      <div className="h-auto md:w-1/2 w-full bg-black/50 ">
+        <div className="w-full md:p-16 p-12 flex flex-col gap-10">
           {/* 1 */}
           <div className="flex-1 text-[28px] font-medium">
             <h1 className="pb-3 font-medium text-[28px]">Our Skills</h1>
