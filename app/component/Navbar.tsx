@@ -86,7 +86,7 @@ const Navbar = ({ bgc }: { bgc: string }) => {
       </div>
 
       <ul
-        className={`md:hidden transition-all duration-300 ease-in-out flex flex-col justify-center items gap-4 px-4 pb-3 overflow-hidden ${
+        className={`md:hidden transition-all duration-300 ease-in-out flex flex-col justify-center items gap-4 px-4 pb-5 overflow-hidden ${
           isResponsive
             ? "max-h-125 opacity-100 translate-y-0"
             : "max-h-0 opacity-0 -translate-y-5"
