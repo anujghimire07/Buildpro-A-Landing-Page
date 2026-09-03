@@ -10,13 +10,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="relative">
-      {/* <div className="absolute top-0 bg-cover bg-center h-screen">
-      <Image src={"/bg-17.jpg"} fill alt="Bg images"></Image>
-       <Image src={"/wide1-1.jpg"} fill alt="Bg images"></Image>
-        <Image src={"/wide2-1.jpg"} fill alt="Bg images"></Image>
-      </div> */}
+         <div className="fixed top-0 left-0 ">
+         <div className="fixed bg-[url('/bg-17.jpg')] bg-cover bg-center w-full h-screen"></div>
+         </div>
 
-      {/* <div className=""> */}
+      <div className="relative z-50">
         <Hero />
         <Gallery />
         <Aboutus />
@@ -24,8 +22,7 @@ export default function Home() {
         <Ourteam />
         <Skills />
         <Why_choose_us />
-      {/* </div> */}
-
+      </div>
     </div>
   );
 }

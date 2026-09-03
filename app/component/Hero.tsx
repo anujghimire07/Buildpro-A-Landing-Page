@@ -4,7 +4,7 @@ import TextAnimation from "./TextAnimation";
 
 const Hero = () => {
   return (
-    <div className="relative bg-[url('/bg-17.jpg')] bg-cover bg-center h-screen">
+    <div className="relative bg-transparent bg-cover bg-center h-screen">
  
       {/* TOP */}
       <div className="absolute top-0 w-full z-10">

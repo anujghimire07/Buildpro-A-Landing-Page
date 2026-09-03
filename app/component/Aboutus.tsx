@@ -2,8 +2,8 @@ import Counter from "./Counter";
 
 const Aboutus = () => {
   return (
-    <div className="font-montserrat">
-      <div className="bg-white max-w-300 px-5 flex md:flex-row flex-col md:gap-0 gap-7 m-auto py-19">
+    <div className="bg-white relative z-70 font-montserrat ">
+      <div className="max-w-300 px-5 flex md:flex-row flex-col md:gap-0 gap-7 m-auto py-19">
         <div className="flex-1">
           <h1 className="font-medium text-[28px] pb-3.5 mt-0">About Us</h1>
           <hr className="bg-[#F2C802] w-12 h-0.5 border-0" />

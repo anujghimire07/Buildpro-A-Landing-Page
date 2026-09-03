@@ -24,7 +24,7 @@ const Navbar = ({ bgc }: { bgc: string }) => {
 
   return (
     <div
-      className={` fixed top-0 left-0 w-full z-50  transition-all duration-300 font-montserrat ${
+      className={` fixed top-0 left-0 w-full z-60  transition-all duration-300 font-montserrat ${
         show ? "md:translate-y-0" : " md:-translate-y-full"
       }`}
       style={{ background: bgc }}
