@@ -92,7 +92,7 @@ const Ourhistory = () => {
             </div>
 
             {/* lower div */}
-            <div className="flex justify-end w-full">
+            <div className="flex md:justify-end justify-center w-full">
               <Animated_button
                 text={"READ MORE"}
                 textColor="white"
