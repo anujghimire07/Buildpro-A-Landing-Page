@@ -8,7 +8,7 @@ const LocationSection = () => {
   const [active, setactive] = useState<string>("New York");
   return (
     <div className="flex-3  font-montserrat">
-      <div className="flex bg-[#4E4E4E]">
+      <div className="md:flex grid grid-cols-2 bg-[#4E4E4E] ">
         <button autoFocus
           onClick={() => setactive("New York")}
           className="focus:outline-none text-[13px] font-bold px-8 py-2 text-white focus:bg-[#F2C802] focus:text-[#4E4E4E]"
