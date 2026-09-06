@@ -10,7 +10,7 @@ const page = () => {
       </div>
       <div className="  mx-auto max-w-300 px-5 text-center flex justify-center items-center h-screen">
        <div>
-         Under Construction! <br /> Please go to<span className="text-[#FFD200]"> Home </span>page and<span className="text-[#FFD200]"> About Us </span>page
+         Under Construction! <br /> Please go to<span className="text-[#FFD200]"> Home </span>page, <span className="text-[#FFD200]"> Services </span>page,<span className="text-[#FFD200]"> About us </span>page, and<span className="text-[#FFD200]"> Contact Us </span>page
        </div>
       </div>
     </div>
